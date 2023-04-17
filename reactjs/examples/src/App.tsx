@@ -6,9 +6,11 @@ import ClassComponents from "./views/LifeCycle/ClassComponents";
 import FunctionComponents from "./views/LifeCycle/FunctionComponents";
 import "./App.css";
 import Payment from "./payment/pages/Main";
+import BookingList from "./bookingList/pages/Main";
 
 function App() {
-  return <Payment />;
+  /* return <Payment />; */
+  return <BookingList />
 }
 
 export default App;
